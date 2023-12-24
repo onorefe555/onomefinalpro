@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Genesis Resturant Manager 1.0 - Food Order Management Information System </title>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
+    
+    <script lang="javascript" type="text/javascript" src="./sript/index.js"></script>
+    <div class="container">
+          <form action="" method="post"   id="form" onsubmit="return validateInputs();">
+            
+            <div class="webapp_header">
+                <img src="./img/open-159121_1280.png" alt="padlock">
+                <p>Enter User Name And <br> password to Login into the <br> system.</p>
+             </div>
+    
+             <div class="webapp_input-container">
+                   <div class="webapp_input" >
+                        <label for="username">User Name</label> 
+                          <input type="text" class="username" id="username"
+                    name="username" placeholder="Please Enter your username here">
+                   </div>
+    
+                   <div class="webapp_input" >
+                    <label for="password">Password</label>
+                    <input type="password" class="password" id="password"
+                    name="password" placeholder="***************">
+                   </div>
+                   <div class="webapp_input" >
+                       <div class="button">
+                        <label for="button"  >OK</label><button name="btn" id="ok" ></button>
+                        <label for="button">Cancel</label><button id="cancel"></button>
+                       </div>
+                   </div>  
+                   
+             </div>
+          </form>
+         <small id="message"></small>
+         <small id="success"></small>
+    </div>
+</body>
+</html>

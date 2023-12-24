@@ -1,0 +1,230 @@
+body{
+    
+    background: radial-gradient(ellipse at 47% 49%, rgba(49, 20, 90, 1)
+     20%, rgba(36, 36, 35, 1) 33%, rgba(12, 137, 153, 0.99) 
+     50%, rgba(52, 33, 86, 1) 73%, rgba(36, 13, 36, 1) 100%);
+
+  padding: 1rem;
+  color: white;  
+}
+
+/* date and invoice styling */
+#message{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 1.2rem; 
+}
+#message li{
+    font-size: 25px;
+    padding: 0.7rem;
+}
+#message ul{
+  margin-left: 2rem;
+}
+
+title{
+  font-size: 30px;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  justify-content: center;
+}
+.header a{
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  margin: 2rem;
+  text-decoration: none;
+  font-size: 33px;
+  color: #ffff;
+}
+.header .current{
+  color: rgb(246, 14, 60);
+}
+h2{
+ color: #ffff;
+ text-align: center;
+ font-size: 35px; 
+}
+img{
+  width: 15%;
+  border-radius: 2rem;
+  align-items: center;
+}
+#resturant_app-date-invoise{
+  padding: 1.5px;
+  border: 1px solid #ffff;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 1.2rem; 
+}
+.date-invoise{
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.date-invoise-app{
+  margin: 2rem;
+  flex-direction: column;
+  width: 100%;
+}
+.date-invoise-app label{
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 2px;
+
+}
+.date-invoise-app input{
+  width: 100%;
+  border: none;
+  border-bottom:solid orangered 2px ;
+  padding: 1rem;
+  font-size: 20px;
+}
+#resturant_app-date-invoise #btn{
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 20px;
+  cursor: pointer;
+} 
+.date-invoise-app ::placeholder{
+  font-size: 20px;
+  text-align: center;
+}
+/* cmd add new styling */
+#message{
+  padding: 1.5px;
+  border-radius: 1rem;
+  overflow: hidden;  
+  margin: 1.2rem; 
+}
+.error-mes-container{
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+#stock_category-container{
+  padding: 1.5px;
+  border: 1px solid #ffff;
+  border-radius: 1rem;
+  overflow: hidden;  
+  margin: 1.2rem; 
+}
+.stock_category-name{
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.stock_category-name-control{
+  margin: 2rem;
+  flex-direction: column;
+  width: 100%;
+}
+.stock_category-name-control label{
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 2px;
+}
+.stock_category-name-control input{
+  width: 100%;
+  border: none;
+  border-bottom:solid orangered 2px ;
+  padding: 1rem;
+  font-size: 20px;
+}
+.stock_category-name-control #category{
+  background: rgba(56, 56, 28, 0.358);
+}
+#stock_category-container .category{
+  color: orangered;
+}
+
+#stock_category-container button{
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 20px;
+  cursor: pointer;
+  background: rgb(148, 39, 39);
+}
+#quantity_discount-container{
+  padding: 1.5px;
+  border: 1px solid #ffff;
+  border-radius: 1rem;
+  overflow: hidden;  
+  margin: 1.2rem;   
+}
+.quantity_discount-container-controler{
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.quantity_discount-control{
+  margin: 2rem;
+  flex-direction: column;
+  width: 100%;
+}
+.quantity_discount-control label{
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 2px;
+}
+.quantity_discount-control input{
+  width: 100%;
+  border: none;
+  border-bottom:solid orangered 2px ;
+  padding: 1rem;
+  font-size: 20px;
+}
+#quantity_discount-container button{
+  width: 25%;
+  padding: 0.8rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+.how_pay-container{
+  flex-direction: column;   
+}
+.how_pay-container select{
+  padding: 1rem;
+  width: 50%;
+  font-size: 20px;
+}
+.how_pay-container .how_pay{
+  margin: 1.2rem;
+}
+#button_resturant-container{
+  padding: 1.5px;
+  border: 1px solid #ffff;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 1.2rem; 
+}
+.resturant-btn{
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row; 
+}
+.resturant-btn-controy{
+   margin: 2rem;
+  flex-direction: column;
+  width: 100%;
+}
+.resturant-btn-controy input{
+  width: 100%;
+  border: none;
+  border-bottom:solid orangered 2px ;
+  padding: 1rem;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.resturant-btn-controy input:hover{
+  background-color: blue;
+}

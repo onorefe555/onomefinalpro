@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Sales</title>
+    <link rel="stylesheet" href="./style/gen.css">
+</head>
+<body>
+    <h2 >Genesis File Management Restaurant</h2>
+    <center><a href="#" class=""><img id="img_slide" src="./images/img1.jpg" alt=""></a></center>
+    <div class="header">
+        <a href="gen.html" class="current">Food Sales</a>
+        <a href="foodorder.html">Food Order</a>
+        <a href="expenses.html">Expenses Tracker</a>
+        <a href="log.html">Logout</a>
+    </div>
+    
+    <section id="resturant_app-date-invoise">
+         <div class="date-invoise">
+               <div class="date-invoise-app">
+                <label for="date">Date</label>
+                <input id="input_date" type="text" placeholder="2013/07/30">
+                <small id="date_error"></small>
+               </div>
+
+               <div class="date-invoise-app">
+                <label for="invoice">Invoice No</label>
+                <input id="input_invoice" type="number" placeholder="00000008">
+                <small id="invoice_error"></small>
+               </div>
+             
+               <div class="date-invoise-app">
+                <label for="button">Add New</label>
+                <input type="button" value="CmdNew" id="btn">
+                
+               </div>
+         </div>
+    </section>
+
+     <section id="message">
+            <div class="error-mes-container">
+                <div class="error">
+                    <ul id="date_li">
+    
+                    </ul>
+                </div>
+    
+                <div class="error">
+                    <ul id="invoice_li">
+    
+                    </ul>
+                </div>
+            </div>
+     </section>
+
+     <section id="stock_category-container">
+        <div class="stock_category-name">
+              <div class="stock_category-name-control">
+                     <div class="category-product-id">
+                            <div class="category">
+                                  <label for="category">Category ID</label>
+                                  <input type="text" id="category_id" >
+                            </div>
+
+                            <div class="product_id">
+                                  <label for="category">Product ID</label>
+                                  <input type="text" id="product_id">
+                                  <button id="product_category_btn">Add Product</button>
+                            </div>
+                     </div>
+              </div>
+
+              <div class="stock_category-name-control">
+                            <div class="categoryname-productname">
+                                <div class="category_name">
+                                     <label for="category">Category Name</label>
+                                      <input type="text" id="category_name" >
+                                </div>
+
+                                <div class="product_name">
+                                     <label for="product_name">Product Name</label>
+                                     <input type="text" id="product_name">
+                                </div>
+                            </div>
+              </div>
+                 
+              <div class="stock_category-name-control">
+                     <div class="availablestock-limitprice">
+                         <div class="available-stock">
+                             <label for="categoryname" class="category">Available Stock</label>
+                             <input type="text" id="availabe_stock" >
+                       </div>
+
+                       <div class="availablestock-limit_price">
+                             <label for="category">Unit Price</label>
+                             <input type="text" id="unit_price">
+                       </div>
+                     </div>
+              </div>
+        </div>
+ </section>
+<!-- Error message for section two -->
+<section id="message">
+    <div class="error-mes-container">
+        <div class="error">
+            <ul id="category_li">
+
+            </ul>
+        </div>
+
+        <div class="error">
+            <ul id="categoryname_li">
+                 
+            </ul>
+        </div>
+
+        <div class="error">
+            <ul id="availablestock_li">
+                 
+            </ul>
+        </div>
+    </div>
+</section>
+ <!-- message validation for section two input -->
+<section id="message">
+    <div class="error-mes-container">
+        <div class="error">
+            <ul id="productId_li">
+
+            </ul>
+        </div>
+
+        <div class="error">
+            <ul id="product_name_li">
+                 
+            </ul>
+        </div>
+
+        <div class="error">
+            <ul id="unitprice_li">
+                 
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="quantity_discount-container">
+    <div class="quantity_discount-container-controler">
+     <div class="quantity_discount-control">
+         <label for="quantity">Quantity</label>
+         <input type="number" id="quantity">
+     </div>
+
+     <div class="quantity_discount-control">
+         <label for="discount">Discount</label>
+         <input type="number" id="discount">
+         <button id="btn_rs">Rs.</button>
+     </div>
+
+     <div class="quantity_discount-control">
+           <div class="how_pay-container">
+               <div class="how_pay">
+                       <label for="how_pay">How to pay..?</label>
+                       <select name="" id="how_to_pay">
+                           <option value=""id="cash" >Cash</option>
+                           <option value="" id="check" >Check</option>
+                        </select>
+               </div>
+               <div class="how_pay">
+                  <label for="amount">Amount</label>
+                  <input type="number" id="amount">
+               </div>
+               
+           </div>
+     </div>
+    </div>
+</section>
+
+<!-- error and validation for section three input -->
+<section id="message">
+    <div class="error-mes-container">
+
+        <div class="error">
+            <ul id="quantit_li">
+                 
+            </ul>
+        </div>
+        <div class="error">
+            <ul id="discount_li">
+
+            </ul>
+        </div>
+
+        <div class="error">
+            <ul id="how_to_pay_li">
+                 
+            </ul>
+        </div>
+
+        <div class="error">
+            <ul id="amount_li">
+                 
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- list of button section -->
+<section id="button_resturant-container">
+    <div class="resturant-btn">
+              <div class="resturant-btn-controy">
+                  <input type="button" value="cmdSave" id="savebtn">
+              </div>
+
+              <div class="resturant-btn-controy">
+                  <input type="button" value="cmdDelete" id="deletebtn">
+              </div>
+
+              <div class="resturant-btn-controy">
+                 <a href="file:///C:/Users/USER/Documents/onomefinalproject/gen.html#resturant_app-date-invoise"><input type="button" value="cmdList" id="listbtn"></a> 
+              </div>
+
+              <div class="resturant-btn-controy">
+                  <input type="button" value="cmdClear " id="clearbtn">
+              </div>
+
+              <div class="resturant-btn-controy">
+                  <a href="index.html"><input type="button" value="cmdClose" id="closebtn"></a>
+              </div>
+    </div>
+</section>
+</body>
+</html>
+    <script src="./sript/script.js"></script>
+</body>
+</html>

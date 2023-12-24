@@ -1,0 +1,108 @@
+body{
+    /* background-color: rgba(0, 0, 0, 0.878); */
+    background: radial-gradient(ellipse at 55% 58%,
+     rgba(15, 16, 16, 1) 0%, rgba(15, 16, 16, 0.8) 58%,
+      rgba(0, 0, 0, 1) 66%, rgba(15, 16, 16, 0.8) 91%,
+       rgba(7, 58, 187, 1) 100%);
+    font-family: 'open san' , sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 ;
+}
+.container{
+    background:rgba(0, 0, 0, 0.878) ;
+    width: 650px;
+    max-width: 100%;
+   border: #fff solid 1.3px;
+   display: flex;
+   flex-direction: column;
+}
+.webapp_header{
+    background: radial-gradient(ellipse at 50% 50%,
+     rgba(233, 130, 238, 0.75) 0%, rgba(0, 0, 255, 1) 100%);
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.webapp_header img{
+    width: 12%;
+    height: 70pX;
+    padding-right: 2rem;
+}
+.webapp_header p{
+    text-align: right;
+    color: #ffffffe9;
+    font-style: italic;
+    font-size: 17px;
+    letter-spacing: 3px;
+    line-height: 23px;
+}
+.webapp_input{
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    flex-direction: row;
+    margin: 1rem;
+    
+}
+.webapp_input label{
+    color: #fff;
+    font-style: italic;
+    font-size: 18px;
+    margin-right: 0.4rem;
+    line-height: 23px;
+    width: 27%;
+    margin-top: 1.5rem;
+}
+.webapp_input input{
+    width:100%;
+    padding: 0.5rem;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-top: 1rem;
+    border-left: solid 9px green;
+}
+.webapp_input .button{
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-left: 3rem;
+    padding-left: 7rem;
+    margin-top: 1.5rem;
+}
+.webapp_input .button button{
+    padding: 0.8rem;
+    border-radius: 5rem;
+    background: #800080;
+    border: 3px brown solid;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.webapp_input .button button:hover {
+    background: rgba(0, 0, 255, 0.308);
+}
+.container .webapp_input label{
+    margin-left: 3rem; 
+    display: inline;    
+}
+#message{
+    color:rgba(235, 8, 8, 0.908) ;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+#success{
+    color:rgba(0, 128, 0, 0.818) ;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+@media screen and (max-width:650px){
+    body{
+        justify-content: left;
+    }
+}
+
